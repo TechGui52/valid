@@ -1,11 +1,10 @@
-<script>
 var myInput = document.getElementById("psw");
 var letter = document.getElementById("letter");
 var capital = document.getElementById("capital");
 var number = document.getElementById("number");
 var length = document.getElementById("length");
 
-// When the user clicks on the password field, show the message box</script>
+// When the user clicks on the password field, show the message box
 myInput.onfocus = function () {
    document.getElementById("message").style.display = "block";
 }
@@ -51,9 +50,7 @@ if(myInput.value.match(numbers)) {
     length.classList.remove("invalid");
     length.classList.add("valid");
   } else {
-    length.classList.remove("valid")
+    length.classList.remove("valid");
     length.classList.add("invalid");
    }
-}
- </script>
-    
+                              }
